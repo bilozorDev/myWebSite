@@ -1,0 +1,36 @@
+name: Auto-Lint and Test
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on pull request events
+  pull_request:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs
+jobs:
+  lint-and-test:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks out your repository under $GITHUB_WORKSPACE, so the job can access it
+    - uses: actions/checkout@v2
+
+    # Sets up the programming environment (e.g., for a Node.js project)
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' # Specify the Node.js version
+
+    # Install dependencies
+    - name: Install Dependencies
+      run: npm install
+
+    # Run Linting
+    - name: Run Linter
+      run: npm run lint # Make sure you have a lint script in your package.json
+
+    # Run Tests
+    - name: Run Tests
+      run: npm test # Make sure you have a test script in your package.json
