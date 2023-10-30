@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Victorian Era
-permalink: /victorian-era/
 ---
 
 # Victorian Era: A Time of Wonder and Transformation
