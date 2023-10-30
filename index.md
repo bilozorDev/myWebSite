@@ -6,7 +6,7 @@ Embark on an extraordinary adventure as we explore different epochs and the wond
 
 ## Explore Our Pages
 
-1. [Victorian Era](/victorian-era/): Step into the Victorian era, where our time-traveling adventure begins. Discover the marvels and the complexities of this pivotal period.
+1. [Victorian Era](./victorian-era.html): Step into the Victorian era, where our time-traveling adventure begins. Discover the marvels and the complexities of this pivotal period.
 
 2. [The Future](/the-future/): Propel into a future that defies imagination. Explore futuristic landscapes and technologies that stretch the bounds of the known.
 
