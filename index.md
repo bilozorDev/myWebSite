@@ -1,7 +1,4 @@
----
-layout: home
-title: Welcome to Our Time-Traveling Journey
----
+
 
 # Welcome to Our Time-Traveling Journey
 
