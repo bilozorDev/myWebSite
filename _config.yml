@@ -3,14 +3,3 @@ plugins:
 - jekyll-remote-theme
 title: My gorgeous website
 author: Alex
-nav:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Services
-    url: /services/
-  - title: Portfolio
-    url: /portfolio/
-  - title: Contact
-    url: /contact/
